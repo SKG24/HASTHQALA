@@ -1,4 +1,5 @@
 {
+"homepage": "https://SKG24.github.io/hasthqala",
   "name": "art-studio",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +10,10 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+"scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
+}   
   "dependencies": {
     "framer-motion": "^11.3.18",
     "gsap": "^3.12.5",
@@ -27,6 +32,7 @@
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.39",
     "react-router-dom": "^6.25.1",
     "tailwindcss": "^3.4.6",
