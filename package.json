@@ -1,19 +1,13 @@
 {
-"homepage": "https://SKG24.github.io/hasthqala",
   "name": "art-studio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-"scripts":{
+  "scripts":{
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
-}   
+    "deploy": "gh-pages -d build"
+}
+"homepage": "https://SKG24.github.io/hasthqala",
   "dependencies": {
     "framer-motion": "^11.3.18",
     "gsap": "^3.12.5",
