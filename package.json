@@ -6,7 +6,7 @@
   "scripts":{
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-}
+},
 "homepage": "https://SKG24.github.io/hasthqala",
   "dependencies": {
     "framer-motion": "^11.3.18",
